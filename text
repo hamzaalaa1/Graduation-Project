@@ -1,0 +1,39 @@
+What is SIM808 module?
+-We usually used a series of SIM modules for sending and receiving SMS, making calls, using GPRS, etc., but the SIM808 module has a special feature and that is GPS receiver. This feature makes this module very useful for making all kinds of trackers.  
+
+
+-SIM808 module uses serial communication protocol to interface with Arduino
+TX: Transmitting Data
+RX: Receiving Data
+VIN: Input voltage (this pin is connected to the jack plug, and if the adapter is connected, no power needs to be supplied here.)
+GND: Ground
+
+
+Hardware Component 
+*Arduino Uno 
+*SIM 808 Module 
+*12V 5A powe Adapter 
+*Male to Female jumper wire
+*SIM Card
+
+SoftWare   
+Arduino IDE
+SIM808 library "DFRobot_SIM808"
+ArduinoJson //for sending request in json formate 
+
+
+in code we us AT command  AT commands to write the code for the car tracking system ; Like make call or send message or make 
+freatur in Sim808
+
+-One full modem serial port (UART interface)
+-Audio channels, which include a microphone input and a receiver output
+-One SIM card interface
+-Ability to support 4*4keypads by default
+-A charging interface
+-One USB, which supports debug and firmware upgrading
+-Ability to support Bluetooth function
+-Integrated TCP/IP protocol and extended TCP/IP AT commands, which are very useful for data transfer applications
+-Ability to support GPS function
+-A power-saving technique the keeps the current consumption is as low as 1.2mA in sleep mode (with GPS engine powered down)
+ 
+
